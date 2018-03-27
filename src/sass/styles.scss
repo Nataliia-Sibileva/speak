@@ -35,8 +35,38 @@ p {
 .form-inline {
   width: 44%;
 }
+.search {
+
+  border: 1px solid #000;
+  min-height: 20px;
+}
+input[type="search"] {
+  border: none;
+  outline: none;
+  -webkit-appearance: none;
+  vertical-align: middle;
+}
+input[type="submit"] {
+  width: 25px;
+  border: none;
+  background-image: url("../images/seach.png");
+}
+
 .navbar-search {
-  width: 100%;
+  width: 80%;
+}
+.seach-select {
+  border: 0;
+  height: 26px;
+  width: 50px;
+  border: none;
+  outline: none;
+}
+select {
+  background-image: url("../images/seach-place.png");
+  background-repeat: no-repeat;
+  background-size: inherit;
+  background-position: 10px;
 }
 .user {
   width: 33%;
@@ -230,7 +260,7 @@ h3:before {
     width: 150px;
   }
   .navbar-search {
-    width: 100%;
+    width: 50%;
   }
   .user {
     width: 80px;
